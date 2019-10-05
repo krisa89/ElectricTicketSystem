@@ -1,0 +1,29 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "html"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "jest": "^24.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/krisa89/ElectricTicketSystem.git"
+  },
+  "bugs": {
+    "url": "https://github.com/krisa89/ElectricTicketSystem/issues"
+  },
+  "homepage": "https://github.com/krisa89/ElectricTicketSystem#readme",
+  "description": ""
+}
