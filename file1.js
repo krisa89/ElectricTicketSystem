@@ -5,3 +5,7 @@ exports.add = (a, b) => {
 exports.substract = (a,b) => {
     return a - b
 }
+
+exports.multiply = (a,b) => {
+    return a * b
+}
