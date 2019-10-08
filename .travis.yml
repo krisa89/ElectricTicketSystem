@@ -2,7 +2,7 @@ language: node_js
 jobs:
   include:
     - stage: "Config"
-      script: yarn global add jest
+      script: npm install jest --global
     - stage: "Tests"
       name: "Unit Tests"
       script: jest unit
