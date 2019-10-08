@@ -3,8 +3,9 @@ node_js:
   - 12
 jobs:
   include:
-    - stage: "Tests"
+    - stage: "Unit Tests"
       name: "Unit Tests"
       script: npm run test:unit
+    - stage: "Integration Tests"
       name: "Integration Tests"
       script: npm run test:int
