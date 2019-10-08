@@ -1,6 +1,8 @@
 language: node_js
 jobs:
   include:
+    - stage: "Config"
+      script: yarn global add jest
     - stage: "Tests"
       name: "Unit Tests"
       script: jest unit
