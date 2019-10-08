@@ -1,8 +1,6 @@
 language: node_js
 jobs:
   include:
-    - stage: "Config"
-      script: npm install jest --global
     - stage: "Tests"
       name: "Unit Tests"
-      script: jest unit
+      script: npm install jest --global && jest unit
