@@ -3,4 +3,4 @@ jobs:
   include:
     - stage: "Tests"
       name: "Unit Tests"
-      script: npm install jest --global && jest unit
+      script: npm test
