@@ -8,11 +8,13 @@ class Register{
     }
 
     AddUser(userName, password, emailAddress){
-        this.users.push({userName, password, emailAddress})
+        if(!this.users.some(u => u.userName == userName)){
+            this.users.push({userName, password, emailAddress})
+        }
     }
 
-    RemoveUser(userName, password){
-        this.users.pop()
+    RemoveUser(userName){
+        this.users = this.users.filter(u => u.userName !== userName)
     }
 }
 
