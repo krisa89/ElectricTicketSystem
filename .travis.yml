@@ -9,3 +9,7 @@ jobs:
     - stage: "Integration Tests"
       name: "Integration Tests"
       script: npm run test:int
+    - stage: "BDD Tests"
+      name: "BDD Tests"
+      script: npm run bdd:test
+
