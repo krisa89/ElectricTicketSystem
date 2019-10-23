@@ -11,5 +11,5 @@ jobs:
       script: npm run test:int
     - stage: "BDD Tests"
       name: "BDD Tests"
-      script: npm run bdd:test
+      script: npm run test:bdd
 

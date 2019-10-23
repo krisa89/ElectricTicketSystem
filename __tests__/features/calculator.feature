@@ -7,7 +7,7 @@ Feature: Calculator
     When 1 and 3 is added 
     Then should the result be 4
 
-  Scenario: Add two number
+  Scenario: Add two number again
     Given the calculator
     When 3 and 3 is added 
     Then should the result be 6

@@ -5,7 +5,7 @@
   "scripts": {
     "test:unit": "jest unit",
     "test:int": "jest int",
-    "bdd:test": "cucumber-js"
+    "test:bdd": "jest features"
   },
   "jest": {
     "collectCoverage": true,
@@ -18,7 +18,8 @@
   "keywords": [],
   "devDependencies": {
     "cucumber": "^6.0.2",
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "jest-cucumber": "^2.0.11"
   },
   "repository": {
     "type": "git",
@@ -29,5 +30,7 @@
   },
   "homepage": "https://github.com/krisa89/ElectricTicketSystem#readme",
   "description": "",
-  "dependencies": {}
+  "dependencies": {
+    "jest-mock": "^24.9.0"
+  }
 }
